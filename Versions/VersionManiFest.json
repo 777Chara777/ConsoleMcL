@@ -1,5 +1,7 @@
 {
+    "$latest": {
+        "id": ""
+    },
     "$versions": [
-        {"id": "1.0.0", "type": "snapshot", "url": "", "time": "", "releaseTime": ""}
     ]
 }
