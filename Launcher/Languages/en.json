@@ -10,5 +10,8 @@
         "ErrorNoVersion": "Please install any version of Minecraft.",
         "ErrorNoVersion2": "You don't have that version {0}.",
         "ErrorStartFileCrash": "Error Launcher cannot play this version, please reinstall {0}."
-    } 
+    },
+    "LauncherMessgae": {
+        "DownloadWait": "Installing the minecraft client may take some time."
+    }
 }

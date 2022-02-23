@@ -10,5 +10,8 @@
         "ErrorNoVersion": "Пожалуйста установите любую версию Minecarft.",
         "ErrorNoVersion2": "У вас не такой версии {0}.",
         "ErrorStartFileCrash": "Ошибка Лайнчер не может запустить эту версию пожалуйста переустановите {0}."
-    } 
+    },
+    "LauncherMessgae": {
+        "DownloadWait": "Установка minecraft client'a может занять некоторое время."
+    }
 }
