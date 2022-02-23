@@ -1,3 +1,3 @@
 # MinecraftLauncher
-It's my Minecarft Launcher 
+It's my Minecraft Launcher 
 
