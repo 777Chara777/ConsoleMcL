@@ -1,16 +1,4 @@
 {
-    "$latest": {
-        "id": "Test",
-        "description": "Test",
-        "type": "release",
-        "releaseTime": "155546225"
-    },
-    "$versions": {
-        "Test": {
-            "id": "Test",
-            "description": "Test",
-            "type": "release",
-            "releaseTime": "155546225"
-        }
-    }
+    "$latest": {},
+    "$versions": {}
 }
