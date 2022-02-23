@@ -1,4 +1,16 @@
 {
-    "$latest": {},
-    "$versions": {}
+    "$latest": {
+        "id": "1.0.0",
+        "description": "release",
+        "type": "None",
+        "releaseTime": "2022-02-24 01:43:35.267093"
+    },
+    "$versions": {
+        "1.0.0": {
+            "id": "1.0.0",
+            "description": "release",
+            "type": "None",
+            "releaseTime": "2022-02-24 01:43:35.267093"
+        }
+    }
 }
