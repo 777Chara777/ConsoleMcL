@@ -1,0 +1,17 @@
+{
+  "WelcomeLauncher": "Welcome to {0}\n- Version: {1}",
+  "WelcomeDownload": "Welcome {0}\nLatest version '{1}'\nSelect version to install (last {2} releases)",
+  "MenuMessage": {
+    "LauncherUpDate": "New version of Launcher available {0}\n- Your version {1} Available {2}\n- Do you want to install new version Y/N.",
+    "DownloadVersion": "Install new version.",
+    "VersionList": "Download list of installed versions.",
+    "BrackMessage": "To go back type '{0}'",
+    "ErrorNoWi-Fi": "Error failed to connect to wife.",
+    "ErrorNoVersion": "Please install any version of Minecraft.",
+    "ErrorNoVersion2": "You don't have that version {0}.",
+    "ErrorStartFileCrash": "Error Launcher cannot play this version, please reinstall {0}."
+  },
+  "LauncherMessgae": {
+    "DownloadWait": "Installing the minecraft client may take some time."
+  }
+}
