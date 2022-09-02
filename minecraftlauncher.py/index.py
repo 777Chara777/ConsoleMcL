@@ -532,11 +532,11 @@ class MinecraftLauncher:
             else:
                 StartFile = StartfileJson[listversions2[versionnum]]
                 argum = str(StartFile['Dlog4']).split()
-                # print(f"{StartFile['Java']} {StartFile['Memory']} {' '.join(argum)};{StartFile['Client']} {StartFile['MinecraftArg']}")
-                # msystem(f"{StartFile['Java']} {StartFile['Memory']} {' '.join(argum)};{StartFile['Client']} {StartFile['MinecraftArg']}")
-                # subprocess.call(f"{StartFile['Java']} {StartFile['Memory']} {' '.join(argum)};{StartFile['Client']} {StartFile['MinecraftArg']}")
-                
-                open(f'Minecarft-{listversions2[versionnum]}-Start.bat','w').write(f"@echo off\n{StartFile['Java']} {StartFile['Memory']} {' '.join(argum)};{StartFile['Client']} {StartFile['MinecraftArg']}")
+                try:
+                    subprocess.call(f"{str(StartFile['Java'])}".replace("'", '"')+f" {StartFile['Memory']} {' '.join(argum)};{StartFile['Client']} {StartFile['MinecraftArg']}")
+                except: pass
+                # open(f'Minecarft-{listversions2[versionnum]}-Start.bat','w').write(f"@echo off\n{str(StartFile['Java'])}".replace("'", '"')+f" {StartFile['Memory']} {' '.join(argum)};{StartFile['Client']} {StartFile['MinecraftArg']}")
+                # subprocess.call(f"Minecarft-{listversions2[versionnum]}-Start.bat")
             msystem('pause')
             
 
